@@ -1,4 +1,3 @@
-name: cookbook-dev
 channels:
   - conda-forge
 dependencies:
