@@ -1,4 +1,4 @@
-# (Replace_with_your_title) Cookbook
+# From Raw Pixels to Products Landsat Sea Surface Temperature Cookbook
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
