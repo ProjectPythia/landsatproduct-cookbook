@@ -1,4 +1,4 @@
-# From Raw Pixels to Products Landsat Sea Surface Temperature Cookbook
+# From Raw Pixels to Products: Building a Landsat Sea Surface Temperature Product Cookbook
 
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
@@ -8,15 +8,19 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+Where do you start if the data product you need doesn’t exist yet? Designing a scientific algorithm is already a challenge — making it automated, open, reusable, and cloud-ready is even harder. This project creates a cookbook that guides users through building a data product algorithm using best-in-class open methods, with Landsat sea surface temperature (SST) as the case study. It demystifies complex steps like thermal infrared atmospheric correction and avoids dependence on proprietary radiative transfer models. 
+
+This Project Pythia Cookbook covers how to create a data product from a raw image to data production. 
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+- Streamlines some of the biggest time sinks in science: data access and generation
+- Makes complex thermal correction and retrieval methods more accessible
+- Provides a full, reproducible workflow — from data download to robust error quantification — for training new users and accelerating applied research
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Tasha Snow](https://github.com/tsnow03), [Genevieve Clow](https://github.com/genna-clow), [Kathryn Moore](https://github.com/kamoore14), [Arman Oliazadeh](https://github.com/Arri2424), [Jianwen Du](https://github.com/Janewendo). 
 
 ### Contributors
 
@@ -26,15 +30,23 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken into seven chapters: data access, data prepreprocessing, building a brightness temperature correction, retrieving a corrected value, calibrating, validating with in situ data, and producing the data file.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 Data Access
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+Teaches how to most effectively find and access your datasets from a local laptop or the cloud.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 Data Preprocessing
 
-(Add content for this section, e.g., "Example workflows include ... ")
+Learn about the different steps involved in data preprocessing as the data is prepared to be used in conjunction with other datasets and eventually corrected and applied within a retrieval.
+
+### Section 5 Calbration
+
+Learn why we would want to calibrate our new dataset and how to do so.
+
+### Section 2 Data Preprocessing
+
+Learn about what data to use for validation, why we want to validate, and potential models we can use for validation.
 
 ## Running the Notebooks
 
